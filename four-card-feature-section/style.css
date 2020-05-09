@@ -1,0 +1,71 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+box-sizing:border-box;
+}
+body{
+background-color:hsl(0, 0%, 98%);
+font-family:'poppins', san-serif;
+}
+header{
+margin:50px auto;
+max-width:800px;
+text-align:center;
+}
+h1 {
+font-weight:200;
+margin:0;
+}
+h1 span {
+font-weight:600;
+}
+p{
+color:hsl(229, 6%, 66%);
+}
+.container {
+display:flex;
+flex-wrap:wrap;
+max-width:1140px;
+margin:0px auto;
+justify-content:center;
+}
+.box{
+box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+margin:15px;
+border-radius:5px;
+width:250px;
+background-color:white;
+padding:20px;
+}
+.supervisor{
+border-top: 5px solid cyan;
+}
+.team{
+border-top:5px solid red;
+}
+.calculator{
+border-top: 5px solid blue;
+}
+
+.karma{
+border-top: 5px solid orange;
+}
+.box img{
+display:block;
+margin-left:auto;
+}
+.box h3{
+margin:0;
+}
+.box p{
+font-size:14px;
+margin:15px 0 40px;
+}
+.media{
+transform:translateY(50%);
+}
+@media screen and (max-width: 375px) {
+.media{
+transform:translateY(0);
+}
+}
